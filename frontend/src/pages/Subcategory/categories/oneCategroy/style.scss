@@ -1,0 +1,15 @@
+.OneCategory {
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  &:hover {
+    transform: scale(1.1);
+  }
+  h6 {
+    color: #000;
+  }
+}

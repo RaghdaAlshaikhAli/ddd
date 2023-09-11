@@ -1,0 +1,70 @@
+.about-seller-page {
+  padding: 20px;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    cursor: pointer;
+  }
+  .infoApp {
+    width: 900px;
+    border: 1px solid #aaa;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    .info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      line-height: 25px;
+    }
+    p {
+      margin-top: 20px;
+    }
+  }
+  .seller-info {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    img {
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+    }
+
+    .seller-name {
+      font-size: 24px;
+      margin-right: 10px;
+      font-weight: bold;
+    }
+
+    .seller-rating {
+      margin-right: 10px;
+    }
+
+    .seller-reviews {
+      margin-right: 10px;
+    }
+
+    .seller-location {
+      font-style: italic;
+    }
+  }
+
+  .seller-about {
+    margin-top: 20px;
+  }
+}

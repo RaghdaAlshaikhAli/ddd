@@ -1,0 +1,13 @@
+.orDiv {
+  text-align: center;
+  margin: 20px 0;
+
+  .or::after,
+  .or::before {
+    content: "";
+    width: 170px;
+    border: 1px solid #aaa;
+    background-color: #aaa;
+    display: inline-block;
+  }
+}

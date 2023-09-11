@@ -1,0 +1,110 @@
+.orderPages {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+
+  .orderPage-title {
+    h2 {
+      font-size: 30px;
+      margin: 30px 0;
+    }
+  }
+  .orderPage-content {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 30px;
+    .card {
+      display: flex;
+      margin: 10px auto;
+      padding-bottom: 50px;
+      justify-content: space-between;
+      gap: 20px;
+      border-bottom: 1px solid #d1d1d1;
+      position: relative;
+      &:last-child {
+        border-bottom: none;
+      }
+      .img {
+        img {
+          width: 150px;
+          height: 150px;
+          object-fit: cover;
+        }
+      }
+      .description {
+        p {
+          font-size: 15px;
+          color: #666;
+          line-height: 1.6;
+        }
+        .btns {
+          margin: 15px 0;
+          position: absolute;
+          bottom: 0;
+          button {
+            padding: 5px 10px;
+            border-radius: 10px;
+            border: 1px solid #f00;
+            color: #f00;
+            background-color: #fff;
+            font-weight: 500;
+            &:hover {
+              color: #fff;
+              background-color: #f00;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    button {
+      border: 1px solid #8bc9fe;
+      background-color: #8bc9fe;
+      border-radius: 10px;
+      padding: 10px 10px;
+      font-size: 15px;
+      font-weight: bold;
+      color: #fff;
+      &:hover {
+        background-color: #eee;
+        color: #8bc9fe;
+        border: 1px solid #eee;
+        cursor: pointer;
+      }
+    }
+    .remove {
+      color: #fff;
+      background-color: #f00;
+      border: 1px solid #f00;
+      &:hover {
+        background-color: #eee;
+        color: #f00;
+        border: 1px solid #eee;
+      }
+    }
+  }
+  .payment {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 30px;
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #8bc9fe;
+    }
+    .methods {
+      display: flex;
+      width: 100%;
+      img {
+        width: 20%;
+        height: 100%;
+        cursor: pointer;
+      }
+    }
+  }
+}

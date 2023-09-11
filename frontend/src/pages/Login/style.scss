@@ -1,0 +1,25 @@
+.login {
+  width: 420px;
+  box-shadow: 9px 15px 39px -10px rgba(170, 170, 170, 1);
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 85px auto;
+  padding: 20px;
+
+  .submit {
+    padding: 9px;
+    margin: 15px auto;
+    width: 370px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #60b8ff;
+  }
+
+  hr {
+    margin: 10px;
+  }
+}

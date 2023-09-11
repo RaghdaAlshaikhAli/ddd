@@ -1,0 +1,210 @@
+.profile-page {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  .left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    align-items: baseline;
+    img {
+      width: 331px;
+      height: 330px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .avatar {
+      position: relative;
+    }
+    .editButton {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 5px;
+      font-size: 12px;
+      color: #7451f8;
+      background-color: #7551f818;
+      cursor: pointer;
+      border-radius: 0px 0px 0px 5px;
+    }
+    .title {
+      font-weight: bold;
+      font-size: 20px;
+      text-align: left;
+    }
+    .surName {
+      font-weight: 400;
+      color: gray;
+    }
+    .desc-text {
+      font-weight: 400;
+      color: rgba(128, 128, 128, 0.573);
+    }
+    .status {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      color: gray;
+      padding: 20px 0;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+      .active {
+        padding: 5px;
+        background-color: #21d921;
+        color: white;
+        border: 1px solid #21d921;
+        border-radius: 5px;
+      }
+      .offLine {
+        padding: 5px;
+        background-color: #d92121;
+        color: white;
+        border: 1px solid #d92121;
+        border-radius: 5px;
+      }
+    }
+    .membership {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      color: gray;
+    }
+  }
+  .right {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    .about {
+      width: 100%;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      .editButton {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 5px;
+        font-size: 12px;
+        color: #7451f8;
+        background-color: #7551f818;
+        cursor: pointer;
+        border-radius: 0px 0px 0px 5px;
+      }
+      .titleItem {
+        font-weight: 600;
+        color: #666;
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .detailItem {
+        margin-bottom: 30px;
+        font-size: 16px;
+        width: 50%;
+
+        .itemKey {
+          font-weight: bold;
+          color: gray;
+          margin-right: 5px;
+        }
+
+        .itemValue {
+          font-weight: 300;
+          input {
+            border: none;
+            border-bottom: 1px solid #80808061;
+            padding: 5px 0;
+          }
+        }
+      }
+    }
+    .information {
+      display: flex;
+      width: 100%;
+      .experience,
+      .education {
+        flex: 50%;
+        width: 100%;
+        .title {
+          font-weight: 600;
+          color: #666;
+          font-size: 20px;
+          margin-bottom: 20px;
+        }
+        .btns {
+          display: flex;
+          gap: 10px;
+          margin-top: 10px;
+          .deleteButton {
+            color: #fff;
+            background-color: #f00;
+            border-radius: 5px;
+            border: 1px solid #f00;
+            padding: 2px 5px;
+            cursor: pointer;
+          }
+          .editButton {
+            color: #fff;
+            background-color: #8bc9fe;
+            border-radius: 5px;
+            border: 1px solid #8bc9fe;
+            padding: 2px 5px;
+            cursor: pointer;
+          }
+        }
+        .add {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          background-color: #999fa4;
+          width: fit-content;
+          padding: 10px;
+          border-radius: 10px;
+          .addTitle {
+            font-weight: 500;
+            color: #fff;
+          }
+          input {
+            border: none;
+            border-bottom: 1px solid #80808061;
+            padding: 5px 0;
+            background-color: transparent;
+          }
+          .addButton {
+            color: #fff;
+            background-color: #8bc9fe;
+            border-radius: 5px;
+            border: 1px solid #8bc9fe;
+            padding: 4px 5px;
+            cursor: pointer;
+            width: fit-content;
+          }
+        }
+        .items {
+          margin: 20px 0;
+          .company {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            .name {
+              font-weight: 400;
+              color: #329ff9;
+            }
+            .time {
+              color: #b9b9b9;
+            }
+          }
+        }
+      }
+    }
+  }
+}

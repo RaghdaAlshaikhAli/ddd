@@ -1,0 +1,19 @@
+.add-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #eee;
+    border-radius: 5px;
+    font-size: 100px;
+    height: 100%;
+    button{
+        border:none;
+        background-color: transparent;
+        outline: transparent;
+    }
+    .close-btn{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+}

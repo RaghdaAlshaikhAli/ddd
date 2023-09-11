@@ -1,0 +1,18 @@
+.ads {
+  flex: 5;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: url("../../../assets/images/cover3.jpg");
+  // background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  .ads__container {
+    padding: 20px;
+    color: #b8d0e7;
+    font-size: 20px;
+    font-weight: 700;
+    width: 500px;
+  }
+}

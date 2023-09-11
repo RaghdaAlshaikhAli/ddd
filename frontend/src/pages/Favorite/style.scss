@@ -1,0 +1,12 @@
+.FavoritePage {
+  h3 {
+    text-align: center;
+    margin-top: 30px;
+    color: #11a0b9;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+}
